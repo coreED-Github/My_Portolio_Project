@@ -15,12 +15,12 @@ const navAnimation = Nav?'translate-x-0':'translate-x-[-100%]';
       `}>
 
        <div className='w-[100vw] h-[100vh] flex flex-col items-center justify-center bg-blue-950'>
-       <Link href="./"><div className='nav-link-mobile'>Home</div></Link>
+      
    <Link href="/Components/About"><div className='nav-link-mobile'>About</div></Link>
    <Link href="/Components/Services"><div className='nav-link-mobile'>Services</div></Link>
    <Link href="/Components/Skills"><div className='nav-link-mobile'>Educatio & Skills</div></Link>
-   <Link href="./"><div className='nav-link-mobile'>Blogs</div></Link>
-   <Link href="/Components/Skills"><div className='nav-link-mobile'>Contact</div></Link>
+   
+   <Link href="/Components/Footer"><div className='nav-link-mobile'>Contact</div></Link>
       
 </div>
 <div

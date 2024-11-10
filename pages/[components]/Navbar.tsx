@@ -17,12 +17,12 @@ function Navbar({openNavbar}:Props) {
         Nasir
     </span>
     </h1>
-   <Link href="./"><div className='nav-link'>Home</div></Link>
+   
    <Link href="/Components/About"><div className='nav-link'>About</div></Link>
    <Link href="/Components/Services"><div className='nav-link'>Services</div></Link>
    <Link href="/Components/Skills"><div className='nav-link'>Educatio & Skills</div></Link>
-   <Link href="./"><div className='nav-link'>Blogs</div></Link>
-   <Link href="/Components/Skills"><div className='nav-link'>Contact</div></Link>
+   
+   <Link href="/Components/Footer"><div className='nav-link'>Contact</div></Link>
 
 <div onClick={openNavbar}>
   <Bars3Icon className='w-[2rem] md:hidden h-[2rem] cursor-pointer text-yellow-500'/> 
